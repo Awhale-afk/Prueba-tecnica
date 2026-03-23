@@ -1,4 +1,4 @@
-const GEMINI_API_KEY = "AIzaSyDzBd3EUW5FR4ADPl7SgLAXNhcUWR2UQP0"; //API KEY de GEMINI//
+const GEMINI_API_KEY = "Aquí va la API KEY de GEMINI"; //API KEY de GEMINI//
 const GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + GEMINI_API_KEY; //Hace el direccionamiento del modelo de IA que se va a utilizar para el procesamiento de los datos y su conexión con la API KEY para desarrollo //
 
 function doPost(e) { //Función que envía el dato de fecha y hora cuando recibe el input del formulario (con la variable marcaTiempo)
