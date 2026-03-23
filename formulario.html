@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Técnica</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+        <div id="espacioLogo">
+            <img id="alegraLogo" src="/recursos/alegraLogo.png" alt="">
+        </div>
+    <h1>¡Envíanos tus comentarios!</h1>
+        <div id="cajaFormulario">
+            <div id="divFormulario">
+            <p>Nombre:</p>
+            <input class="inputs" id="nombre" type="text" placeholder="Ingresa aquí tu nombre y apellido">
+            <p>Producto:</p>
+            <select class="inputs" name="producto" id="productoId">
+                <option value=""></option>
+                <option value="AlegraPOS">Alegra POS</option>
+                <option value="AlegraContabilidad">Alegra Contabilidad</option>
+                <option value="AlegraNomina">Alegra Nómina</option>
+            </select>
+            <p>Tus comentarios:</p>
+            <input class="inputFeedback" id="feedback" type="text">
+
+        </div>
+        </div>
+        <button id="btnEnviar">Enviar</button>
+
+
+    <script src="logica.js"></script>    
+</body>
+</html>
