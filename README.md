@@ -8,3 +8,5 @@ Backend: JavaScript, Google Apps
 IA para el análisis: Gemini 2.5 Flash
 Dashboard: Looker Studio
 Datos: Google Sheets
+
+URL de la página: https://awhale-afk.github.io/Prueba-tecnica/
