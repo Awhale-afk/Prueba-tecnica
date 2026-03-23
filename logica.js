@@ -19,7 +19,7 @@ btnEnviar.addEventListener('click', function (c) { //event.listener relacionado 
     }else{
 
         alert("Sus comentarios han sido recibidos");
-        const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbxBHOaRdCr7qfotrunHBG2psZoDEyxtEq-b_PSS4wCehFI4_msLb3t3PL2ss9s1DBGX/exec" //URL de Apps Script//
+        const URL_SCRIPT = "https://script.google.com/macros/s/AKfycbx3PnwgA7IM4qOlcwXbkdJYjTGM8UvvchW8m2deKZJXlVQ4x281wYRicFV56BiDC0PB/exec" //URL de Apps Script//
 
         let datos = new URLSearchParams(); //creación de objeto que contiene la información del formulario//
         datos.append("valorNombre", valorNombre);
